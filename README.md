@@ -4,4 +4,4 @@ Suresense
 
 #### License
 
-agpl-3.0
+mit

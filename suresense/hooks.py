@@ -3,7 +3,7 @@ app_title = "Suresense"
 app_publisher = "Rifaz Marikkar"
 app_description = "Suresense"
 app_email = "rifaz@marikkar.net"
-app_license = "agpl-3.0"
+app_license = "mit"
 # required_apps = []
 
 # Includes in <head>
