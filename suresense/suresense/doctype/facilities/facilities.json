@@ -1,0 +1,153 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-22 22:34:57.261148",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "facility_section",
+  "facility_name",
+  "facility_type",
+  "facility_style",
+  "column_break_kmqn",
+  "tenants",
+  "section_break_kpep",
+  "timezone",
+  "column_break_kwju",
+  "currency",
+  "section_break_ulnj",
+  "site_manager",
+  "address",
+  "column_break_pfsm",
+  "contact_email",
+  "contact_number",
+  "section_break_duev",
+  "geolocation"
+ ],
+ "fields": [
+  {
+   "fieldname": "timezone",
+   "fieldtype": "Select",
+   "label": "Timezone"
+  },
+  {
+   "fieldname": "section_break_kpep",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_kwju",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "label": "Currency",
+   "options": "Currency"
+  },
+  {
+   "fieldname": "section_break_ulnj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "site_manager",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Site Manager",
+   "reqd": 1
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Address",
+   "options": "Address",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_pfsm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contact_email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Contact Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contact_number",
+   "fieldtype": "Data",
+   "label": "Contact Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_duev",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "geolocation",
+   "fieldtype": "Geolocation",
+   "label": "Geolocation"
+  },
+  {
+   "fieldname": "facility_section",
+   "fieldtype": "Section Break",
+   "label": "Facility  "
+  },
+  {
+   "fieldname": "facility_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Facility Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "facility_type",
+   "fieldtype": "Select",
+   "label": "Facility Type",
+   "options": "\nMixed Dashboard\nEnergy Dashboard\nCondition Dashboard\nWeather Dashboard\nTransfix Dashboard\nTapTrans Dashboard\nWS + Solar + Short Range Dashboard\nWS + Solar Dashboard\nRF WS Dashboard\nCameras Dashboard\nUtility Target\nLegionella\nRegion Review Dashboard\nSite Plan\nOverview (Legionella)\nOverview (Notifications)\nOverview (Utilities)\nControl Dashboard\nOverview (Conditions)\nMy Dashboards\nLegionella (New)"
+  },
+  {
+   "fieldname": "facility_style",
+   "fieldtype": "Select",
+   "label": "Facility Style",
+   "options": "\nSL - NSW - Wollongong Private Hospital - PACU Fridge\nSL - NT - Katherine - Numbulwar\nSL - QLD - Pindara Private Hospital(Clinical Trials)\nSL - Safeline - API \u00a0Demo\nSL - VIC - Demo System 1\nSL - VIC - Emmy Monash GH/DR Dishwashers\nSL - VIC - Eye &amp; Ear Hospital - Melbourne\nSL - WA - Catholic Home Belmont\nSL - WA - HMAS STIRLING (Arcus Australia)\nSL - WA - Hollywood Hospital - Bagot Ward\nSL - WA - Joondalup -Dishwashers\nSL - WA - Joondalup Hospital - MHU Pantry\nSL - WA - Joondalup MHU Kitchen\nSL - WA - Sir Charles Gairdner - PDC-IV Lounge\nSL - WA - Sir Charles Gairdnier - OSH department\nSL - WA - St John of God Murdoch\nSL - WA - St John of God Murdoch - Birth \u00a0Suite and St Mary\nSL - WA - St John of God Murdoch - Bridget Clancy\nSL - WA - St John of God Murdoch - Catering\nSL - WA - St John of God Murdoch - CCU\nSL - WA - St John of God Murdoch - DPU\nSL - WA - St John of God Murdoch - Emergency\nSL - WA - St John of God Murdoch - Endoscopy\nSL - WA - St John of God Murdoch - ICU\nSL - WA - St John of God Murdoch - Infection Control\nSL - WA - St John of God Murdoch - Operating Theatre\nSL - WA - St John of God Murdoch - Pathology\nSL - WA - St John of God Murdoch - St Catherine\nSL - WA - St John of God Murdoch - St Elizabeth\nSL - WA - St John of God Murdoch - St Emilie\nSL - WA - St John of God Murdoch - St Francis\nSL - WA - St John of God Murdoch - St Joseph\nSL - WA - St John of God Murdoch - St Luke\nSL - WA - St John of God Murdoch - St Michael\nSL - WA - St John of God Murdoch - St Rose\nSL - WA - St John Of God Murdoch- Hospice\nSL - WA - St John of God Murdoch- MUQuality\nSL - WA - St John of God Murdoch- Pharmacy group\nSL - WA - St John Of God Murdoch- Surgi centre\nSL - WA - St John of God Murdoch- Thomas Furlong\nSL - WA - St John of God Murdoch(Spare/Solar Hot Water)\nSL - WA - St John of God Murdoch-Angio\nSL - WA - St John Of God Murdoch-AusBio(-80 Freezer)\nSL - WA - St. John of God Murdoch- Cancer Centre\nSL-WA-Clinical Trials"
+  },
+  {
+   "fieldname": "column_break_kmqn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tenants",
+   "fieldtype": "Link",
+   "label": "Tenants",
+   "options": "Tenants"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-23 18:24:54.983665",
+ "modified_by": "Administrator",
+ "module": "Suresense",
+ "name": "Facilities",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "facility_name"
+}
